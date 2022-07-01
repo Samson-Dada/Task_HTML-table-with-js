@@ -1,4 +1,5 @@
 const staffDataTable = {
+  tableHead: ["NO", "FirstName", "LastName", "Age", "Sex", "	Position", "Date_of_Employement"],
   serialNumber: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
   firstName: ["Thompson", "Johnson", "Chisom", "Jide", "Williams", "Nancy", "Nicholas", "Ahmed", "Halima", "Richard"],
   lastName: ["Anthony", "Mary", "Onyeka", "Olabisi", "Ajayi", "Chukwuemeka", "Uchemba", "Olayinka", "Mohammed", "Adeyemi"],
@@ -29,6 +30,15 @@ const staffDataTable = {
     "17/011/2010",
   ],
 };
+
+// TABLE head
+document.getElementById("table__num").innerHTML = staffDataTable.tableHead[0];
+document.getElementById("table__firstname").innerHTML = staffDataTable.tableHead[1];
+document.getElementById("table__lastname").innerHTML = staffDataTable.tableHead[2];
+document.getElementById("table__age").innerHTML = staffDataTable.tableHead[3];
+document.getElementById("table__sex").innerHTML = staffDataTable.tableHead[4];
+document.getElementById("table__position").innerHTML = staffDataTable.tableHead[5];
+document.getElementById("table__date").innerHTML = staffDataTable.tableHead[6];
 
 // TABLE serial number
 
